@@ -1,7 +1,7 @@
 # Example Jenkins Dockerfile, modify this to complete the challenge
 FROM jenkins/jenkins:lts
 
-USER root
+USER jenkins
 
 RUN apt-get update && \
     apt-get install -y docker.io && \
